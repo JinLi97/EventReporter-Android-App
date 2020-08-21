@@ -37,7 +37,7 @@
             android:value="ca-app-pub-5737532925637097~2864111184"/>
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyD5nB_HyRbdT2ALvmlyuzxFEZf-dM9451k"/>
+            android:value="<Your Google API KEY>"/>
         <service android:name=".MyFirebaseMesagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>
