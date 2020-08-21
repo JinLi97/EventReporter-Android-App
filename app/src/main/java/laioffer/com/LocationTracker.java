@@ -146,7 +146,7 @@ public class LocationTracker implements LocationListener {
 
     public static JSONObject getLocationInfo(double lat, double lng) {
         HttpGet httpGet = new
-                HttpGet("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + lng + "&sensor=true&key=AIzaSyD5nB_HyRbdT2ALvmlyuzxFEZf-dM9451k");
+                HttpGet("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + lng + "&sensor=true&key=<Your Google API KEY>");
         HttpClient client = new DefaultHttpClient();
         HttpResponse response;
         StringBuilder stringBuilder = new StringBuilder();
